@@ -1,0 +1,9 @@
+Transformar uma pasta em repositorio geral (Workstation) das aulas:
+
+* Apagar as pastas .git dos projetos separados
+* git init //para dizer ao git que este é o repositorio
+* git remote add origin https://github.com/LucasGonSousa/AulasJava.git //para vincular com meu usuario git
+* git add . //para puxar todos os arquivos
+* git commit -m "mensagem" //para dizer o que fez no commit atual
+* git branch -M main // Dizer que estamos trabalhando na branch Main
+* git push -u origin main //para subir os arquivos para o github

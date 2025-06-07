@@ -75,7 +75,7 @@ public class JFrameVelha extends javax.swing.JFrame {
                 return;
             }else{
                 if(jogadas == 9){
-                    JOptionPane.showMessageDialog(null, "Deu velha!");
+                    JOptionPane.showMessageDialog(null, "Deu velha!"); //deu velha
                     btnRecomecarActionPerformed(null);
                     return;
                 }
