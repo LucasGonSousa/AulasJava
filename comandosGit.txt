@@ -7,3 +7,13 @@ Transformar uma pasta em repositorio geral (Workstation) das aulas:
 * git commit -m "mensagem" //para dizer o que fez no commit atual
 * git branch -M main // Dizer que estamos trabalhando na branch Main
 * git push -u origin main //para subir os arquivos para o github
+
+********Enviar atualização************
+* git add . //envia tudo que foiatualizado. Para arquivo, dizer nome do arquivo no lugar do ponto
+* git commit -m "mensagem da alteração" 
+* git push origin nome-da-branch //subir para a nuvem com o nome da branch sendo atualizada
+
+********Baixar repositorio************
+* git clone *link do repositorio* 
+* git init
+* git remote add origin *link do repositorio*
